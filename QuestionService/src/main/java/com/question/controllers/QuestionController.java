@@ -30,4 +30,9 @@ public class QuestionController {
     public Question get(@PathVariable Long quetionId){
         return questionService.getOne(quetionId);
     }
+
+    @GetMapping("/quiz/{quizId}")
+    public List<Question> getQuestionOfQuiz(@PathVariable Long quizId){
+        return questionService.getQuestionOfQuiz(quizId);
+    }
 }

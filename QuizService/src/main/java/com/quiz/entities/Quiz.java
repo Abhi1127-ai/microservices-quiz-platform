@@ -1,7 +1,9 @@
-package com.quiz.model;
+package com.quiz.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -15,4 +17,6 @@ public class Quiz {
     private Long id;
 
     private String title;
+
+    transient private List<Question> questions;
 }

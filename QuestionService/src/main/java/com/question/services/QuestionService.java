@@ -12,5 +12,5 @@ public interface QuestionService {
 
     Question getOne(Long id);
 
-//    Question save(Question question);
+    List<Question> getQuestionOfQuiz(Long quizId);
 }

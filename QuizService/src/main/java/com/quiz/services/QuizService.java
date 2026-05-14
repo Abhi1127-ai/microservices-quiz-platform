@@ -1,6 +1,6 @@
 package com.quiz.services;
 
-import com.quiz.model.Quiz;
+import com.quiz.entities.Quiz;
 
 import java.util.List;
 

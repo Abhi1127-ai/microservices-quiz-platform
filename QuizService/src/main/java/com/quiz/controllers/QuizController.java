@@ -1,6 +1,6 @@
 package com.quiz.controllers;
 
-import com.quiz.model.Quiz;
+import com.quiz.entities.Quiz;
 import com.quiz.services.QuizService;
 import org.springframework.web.bind.annotation.*;
 
