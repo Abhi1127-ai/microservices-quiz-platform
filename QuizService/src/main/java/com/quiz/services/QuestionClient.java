@@ -10,7 +10,7 @@ import java.util.List;
 
 //@FeignClient(url = "http://localhost:8082",value = "Question-Client")
 
-@FeignClient(url = "QUESIONSERVICE",value = "Question-Client")
+@FeignClient(name = "QUESTIONSERVICE")
 public interface QuestionClient {
 
     @GetMapping("/question/quiz/{quizId}")
