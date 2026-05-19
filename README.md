@@ -1,4 +1,4 @@
-# Learning Microservices
+# microservices-quiz-platform
 
 A hands-on microservices project built with **Spring Boot**, **Spring Cloud**, and **Netflix Eureka** — demonstrating service discovery, API gateway routing, inter-service communication via Feign, and a scalable architecture ready for extension.
 
